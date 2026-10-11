@@ -1,0 +1,6 @@
+# The Russian language pack bundle patch: one client row that registers the `ru`
+# language and its dictionaries into the locale service. Applied after the base
+# and mode bundles when this package is selected in `dsh.profile.bundles`.
+- insert:
+    - id: locale-ru
+      name: dsh-locale-ru
