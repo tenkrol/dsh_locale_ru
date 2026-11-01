@@ -21,6 +21,16 @@ app, and removing the package restores the previous behavior.
 source. Untranslated keys (if a future build adds any) fall back to English, so the UI is never
 broken; the reference check is what turns a version bump into a diff instead of a guess.
 
+## Screenshots
+
+Settings → General → Language, with «Русский» selected:
+
+![Settings → General → Language with «Русский» selected](docs/screenshot-language.png)
+
+The interface itself, in Russian:
+
+![DeepSeek Harness interface in Russian](docs/screenshot-ui.png)
+
 ---
 
 ## Install

@@ -12,6 +12,16 @@
 командой `tools/check.mjs --reference`: каждый ключ и каждый `{плейсхолдер}` сверяются с
 английским источником ([English version](README.md)).
 
+## Скриншоты
+
+Settings → General → Language с выбранным «Русский»:
+
+![Settings → General → Language с выбранным «Русский»](docs/screenshot-language.png)
+
+Сам интерфейс на русском:
+
+![Интерфейс DeepSeek Harness на русском](docs/screenshot-ui.png)
+
 ## Что внутри
 
 | Путь | Назначение |
