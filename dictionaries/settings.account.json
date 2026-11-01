@@ -76,6 +76,7 @@
   "completing": "Завершение входа…",
   "expired": "Время входа истекло. Повторите попытку.",
   "failed": "Не удалось выполнить операцию. Повторите попытку.",
+  "noResponse": "Что-то пошло не так. Проверьте подключение к сети и повторите попытку.",
   "settingsSignedOutTitle": "Вы не вошли в DeepSeek Harness",
   "settingsSignedOutDescription": "Войдите в DeepSeek Harness, чтобы получить персональный ключ API",
   "signInDescription": "Используйте аккаунт DeepSeek, чтобы начать работу.",

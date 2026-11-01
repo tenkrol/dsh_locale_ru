@@ -32,5 +32,12 @@
   "connection.connecting": "Переподключение",
   "connection.connected": "Подключено",
   "connection.reconnect": "Связь потеряна, переподключиться сейчас",
-  "connection.restart": "Переподключение, подключиться сейчас"
+  "connection.restart": "Переподключение, подключиться сейчас",
+  "hostRelease.title": "Версия сервиса изменилась",
+  "hostRelease.description": "Версия сервиса изменилась. Страница приостановила обновление; перезагрузите её, чтобы загрузить новую версию.",
+  "hostRelease.service": "Сервис",
+  "hostRelease.page": "Страница",
+  "hostRelease.unknown": "Неизвестно",
+  "hostRelease.reload": "Перезагрузить, чтобы загрузить новую версию",
+  "hostRelease.later": "Не сейчас"
 }

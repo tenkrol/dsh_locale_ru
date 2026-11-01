@@ -1,0 +1,7 @@
+{
+  "title": "NodeJS Inspector",
+  "toggle": "Показать/скрыть NodeJS Inspector",
+  "close": "Свернуть",
+  "resize": "Изменить размер панели NodeJS Inspector",
+  "frameTitle": "NodeJS Inspector"
+}

@@ -28,6 +28,7 @@
   "terminal.signal": "сигнал {signal}",
   "terminal.exitCode": "код выхода {code}",
   "terminal.noExitCode": "нет кода выхода",
+  "terminal.commandLine": "Командная строка {n}",
   "terminal.running": "выполняется",
   "terminal.failed": "сбой",
   "terminal.done": "готово",
