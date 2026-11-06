@@ -16,6 +16,11 @@ localization strings in the current build.
 It is an external **client plugin**, not an application setting: nothing is patched inside the
 app, and removing the package restores the previous behavior.
 
+> **Compatibility note (7 Nov 2026):** DSH `0.2.2-rc.1` ships its own `ru` locale (together with
+> `ja`, `es`, `fr`, `de`, `pt`). The locale service rejects a second registration of the same
+> language and namespace, so this pack does not load on `0.2.2-rc.1` — it was built and verified
+> against `0.2.1-rc.5`. An overlay release (`ru-native`, fallback `ru`) is being prepared.
+
 **Coverage: 65 of 65 namespaces, 2,914 strings** — verified against the `0.2.1-rc.5` build with
 `tools/check.mjs --reference`, which compares every key and every `{placeholder}` with the English
 source. Untranslated keys (if a future build adds any) fall back to English, so the UI is never
