@@ -45,14 +45,14 @@ window.__ModuleLoader__.load({
 \t\tvar exports = module.exports;
 \t\tObject.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 \t\t/** Registered language identity; \`en\` supplies every untranslated key. */
-\t\tconst LANGUAGE = { id: "ru", label: "Русский", fallback: "en" };
+\t\tconst LANGUAGE = { id: "ru-native", label: "Русский (нативный)", fallback: "ru" };
 \t\t/** Russian dictionaries keyed by locale namespace. */
 \t\tconst DICTIONARIES = ${JSON.stringify(dictionaries, null, '\t').replace(/\n/g, '\n\t\t')};
 \t\t/** Register the language definition and one dictionary per namespace. */
 \t\tfunction apply(ctx) {
-\t\t\tctx.effect(() => ctx.locale.addLanguage(LANGUAGE), "locale-ru: language");
+\t\t\tctx.effect(() => ctx.locale.addLanguage(LANGUAGE), "locale-ru-native: language");
 \t\t\tfor (const namespace of Object.keys(DICTIONARIES)) {
-\t\t\t\tctx.effect(() => ctx.locale.register(namespace, LANGUAGE.id, DICTIONARIES[namespace]), "locale-ru: " + namespace);
+\t\t\t\tctx.effect(() => ctx.locale.register(namespace, LANGUAGE.id, DICTIONARIES[namespace]), "locale-ru-native: " + namespace);
 \t\t\t}
 \t\t}
 \t\t/** Required service: the locale registry this pack extends. */

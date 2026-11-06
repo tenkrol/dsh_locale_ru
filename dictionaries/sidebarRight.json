@@ -1,4 +1,7 @@
 {
+  "menu.close": "Закрыть",
+  "menu.closeOthers": "Закрыть другие вкладки",
+  "menu.closeRight": "Закрыть вкладки справа",
   "command.close": "Закрыть текущую страницу или окно",
   "command.refresh": "Обновить текущую страницу",
   "command.noRefresh": "Эту страницу нельзя обновить",

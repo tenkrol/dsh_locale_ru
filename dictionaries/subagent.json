@@ -34,6 +34,7 @@
   "switcher.aria": "Переключить субагента: {title}",
   "tree.aria": "Сеансы субагентов",
   "open.sidebar": "Открыть в боковой панели",
+  "open.floatWindow": "Открыть в плавающей панели",
   "open.sidebar.aria": "Открыть {label} в боковой панели",
   "sidebar.chat": "Чат",
   "readonly.oneShot.title": "Запись однократного субагента",

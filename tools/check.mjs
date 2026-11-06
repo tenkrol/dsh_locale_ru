@@ -5,7 +5,7 @@
  *   - every `dictionaries/*.json` parses as a flat object of non-empty strings,
  *   - `lib/client.js` registers exactly one module whose id is the package name,
  *   - the factory exports `apply` and `inject: ["locale"]`,
- *   - `apply` registers the `ru` language with fallback `en` and one dictionary
+ *   - `apply` registers the `ru-native` language with fallback `ru` and one dictionary
  *     per namespace, under the `ru` language id.
  *
  * With `--reference <dir>` (one `<namespace>.json` of English strings per
@@ -70,11 +70,11 @@ else {
     if (languages.length !== 1) problems.push(`expected one addLanguage call, got ${languages.length}`)
     else {
       const l = languages[0].language
-      if (l.id !== 'ru' || l.fallback !== 'en' || !l.label) problems.push(`language definition is ${JSON.stringify(l)}`)
+      if (l.id !== 'ru-native' || l.fallback !== 'ru' || !l.label) problems.push(`language definition is ${JSON.stringify(l)}`)
     }
     const registered = calls.filter((c) => c.kind === 'dictionary')
     for (const call of registered) {
-      if (call.language !== 'ru') problems.push(`dictionary ${call.namespace} registered under ${call.language}`)
+      if (call.language !== 'ru-native') problems.push(`dictionary ${call.namespace} registered under ${call.language}`)
       if (!(call.namespace in dictionaries)) problems.push(`registered unknown namespace ${call.namespace}`)
       if (dictionaries[call.namespace] && call.keys !== Object.keys(dictionaries[call.namespace]).length) {
         problems.push(`namespace ${call.namespace}: bundle has ${call.keys} keys, file has ${Object.keys(dictionaries[call.namespace]).length}`)

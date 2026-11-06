@@ -1,7 +1,11 @@
 {
   "header.more": "Другие действия",
+  "menu.copyMarkdown": "Копировать сеанс как Markdown",
   "menu.download": "Скачать журнал сеанса",
   "menu.feedback": "Отзыв",
+  "toast.copied": "Сеанс скопирован как Markdown.",
+  "toast.preparationFailed": "Не удалось прочитать сеанс для копирования. Повторите попытку.",
+  "toast.clipboardFailed": "Не удалось записать в буфер обмена. Проверьте разрешение на доступ к буферу и повторите попытку.",
   "dialog.preparingTitle": "Экспорт сеанса",
   "dialog.preparingDescription": "Подготовка ZIP-архива с этим сеансом, его подсеансами и вложениями.",
   "dialog.successTitle": "Скачивание сеанса начато",

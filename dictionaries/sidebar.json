@@ -4,5 +4,7 @@
   "toggle.open": "Открыть боковую панель",
   "toggle.collapse": "Свернуть боковую панель",
   "panels.label": "Глобальные панели",
-  "panels.more": "Ещё"
+  "navigation.label": "Навигация",
+  "panels.more": "Ещё",
+  "version.copied": "Версия скопирована"
 }
